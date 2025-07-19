@@ -1,0 +1,72 @@
+body{
+	background-color: #f8f9fa !important;
+	font-size: 14px!important;
+}
+input[type="text"],
+input[type="password"],
+input[type="submit"]{
+	border-radius: 0px !important;
+}
+.btn{
+	padding: 0.4rem 1.3rem !important;
+}
+.badge{
+	border-radius: 6rem !important;
+}
+input[type="text"],
+input[type="password"]{
+	padding: 1.4rem 0.9rem !important;
+}
+.form-control{
+	padding: 0.8rem 1rem !important;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.space-top{
+	margin-top: 4rem !important;
+}
+.card{
+	/*max-height: 230px !important;*/
+	border-radius: 0px !important;
+}
+.large{
+	color: rgba(0,0,0,0.3);
+	margin-top: 1rem !important;
+	font-size: 3rem !important;
+}
+.medium{
+	font-size: 1.4rem !important;
+}
+.navbar-brand{
+	font-weight: 700 !important;
+}
+.navbar{
+	background-color: #fff !important;
+	padding: 1rem 1rem !important;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.0576), 0 1px 1px rgba(0,0,0,0.09);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.tab-content{
+	padding: 2rem 0.5rem !important;
+	background-color: #ffffff !important;
+}
